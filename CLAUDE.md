@@ -38,6 +38,19 @@ Each category README contains:
 3. **常见套路** - Common patterns
 4. **本专题题目** - Problem tracking table with links, difficulty, and completion status (✅/⬜)
 
+## Learning Workflow
+
+When the user says "下一题" or specifies a problem name, follow this flow:
+
+1. **出题**：描述题目和示例，然后问用户的思路
+2. **引导**：让用户用自己的话描述解题思路，不要直接给答案
+3. **纠正/补充**：对用户的思路给出反馈，指出问题或肯定方向，逐步引导到正确解法
+4. **写代码**：让用户自己尝试写代码，review 用户写的代码，指出语法或逻辑错误
+5. **追问优化**：如果有更优解法，引导用户思考（而不是直接告诉）
+6. **记录**：用户理解后，将题解写入 markdown 文件并更新 category README
+
+重点：这是学习仓库，目的是让用户主动思考，不是直接给答案。
+
 ## Conventions
 
 - All prose in Chinese
